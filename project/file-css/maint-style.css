@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    color: darkmagenta;
+    margin: 10px;
+    padding: 10px;
+}
+.main-header{
+    margin-top: 20px;
+    
+}
+.search{
+    float: right;
+}
+.img-logo{
+    width: 150px;
+}
+.main-title{
+    margin-top: 40px;
+}
+.title1{
+    margin-left: 30px;
+    color: rgba(245, 14, 206, 0.829);
+    font-size: 140%;
+}
+.img-cover{
+    width: 1000px;
+    height: 300px;
+}
+.img-pro{
+    width: 250px;
+    height: auto;
+    margin: 10px 0px;
+}
+.policy{
+    color: hotpink;
+    margin: 10px 10px;
+}
+.img-logo2{
+    margin: 20px 10px;
+}
+.title2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 10px 10px 0;
+    color: hotpink;
+}
+.main-body{
+    text-transform: uppercase;
+    font-size: 150%;
+    color: indigo;
+    margin: 10px 30px 5px 0;
+    text-decoration: none;
+
+}
+.img-pro2{
+    width: 250px;
+    height: auto;
+    margin: 10px 0px;
+    margin: 3px;
+}
+.name{
+    text-transform: uppercase;
+    text-align: center;
+    color: maroon;
+}
+.price{
+    text-align: center;
+    color: red;
+
+}
+.more{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer{
+    font-size: 80%;
+}
+.footer-end{
+    margin-top: 30px;
+}

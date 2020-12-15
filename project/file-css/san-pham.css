@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    color: darkmagenta;
+    margin: 10px;
+    padding: 10px;
+}
+.main-header{
+    margin-top: 20px;
+    
+}
+.search{
+    float: right;
+}
+.img-logo{
+    width: 150px;
+}
+.main-title{
+    margin-top: 40px;
+}
+.title1{
+    margin-left: 30px;
+    color: rgba(245, 14, 206, 0.829);
+    font-size: 140%;
+}
+.list-pro{
+	text-transform: uppercase;
+	line-height: 40px;
+	color: springgreen;
+}
+.list-detail{
+	color: violet;
+	font-size: 90%;
+}
+.img-pro{
+	width: 200px;
+	height: auto;
+	margin: 10px 10px 15px 010px;
+
+}
+.name{
+	text-transform: uppercase;
+	text-align: center;
+	color: hotpink;
+	margin-top: 20px;
+}
+.price{
+	text-align: center;
+	color: orangered;
+}
+.border-pro:hover{
+	border: 1px solid pink;
+	padding: 10px 2px;
+}
+.img2{ 
+	margin-left: 80px;
+	padding-right: 80px;
+
+	
+}
+.border-pro{
+	text-align: center;
+	margin:10px 0px;
+}
