@@ -5,89 +5,174 @@
         <link rel="stylesheet" href="../file-css/bootstrap.css">
         <title>Husta Shop</title>
     </head>
-    <body>
-        <div class="container">
-            <div class="row main-header">
-                <div class="col=sm-6 col-md-6">
-                    <nav>
-                        <a href="log-in.html" class="header" >Đăng nhập</a>
-                        <a href="dang-ky.html" class="header">Đăng ký</a>
-                        <a href="cart.html" class="header">Giỏ hàng</a>
-                    </nav>
-                </div>
-                <div class="col-sm-6 col-md-6">
-                    <form action="search form">
-                        <input type="text" name="search" placeholder="Tìm kiếm" class="search">
-                    </form>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="container">
-            <div class="row main-title">
-                <div class="col-sm-3 col-md-3">
-                    <a href="main.html"><img src="https://i.ibb.co/GdRZJD6/avar.jpg" alt="anh logo" class="img-logo">
-                    </a>
-                   <a href="main.html">
-                    <p>Trang chủ / Tất cả sản phẩm</p> 
-                    </a>
-                </div>
-                <div class="col-sm-7 col-md-7">
-                    <nav>
-                        <a href="main.html" class="title1">Trang chủ</a>
-                        <a href="san-pham.html" class="title1">Sản phẩm</a>
-                        <a href="gioi-thieu.html" class="title1">Giới thiệu</a>
-                        <a href="info.html" class="title1">Liên Hệ</a>
-                    </nav>
-                </div>
-                <div class="col-sm-2 col-md-2">
-                    <img src="https://i.ibb.co/Y8DW6cm/gio-hang.png" alt="gio-hang" border="0" class="home">
 
-                   </div>
-                 </div>
+
+    <!-- custom css 15122020 -->
+    <style>
+    	img {
+    		max-width: 100%; 
+    		height:  auto ; 
+    	}
+    	.border-pro {
+			padding: 10px 5px;
+			border: 1px solid transparent;
+    	}
+    	.border-pro:hover {
+    		padding: 10px 5px;
+    	}
+    	.img-pro {
+			width: auto;
+			height: auto;
+			margin: 0;
+    	}
+    </style>
+    <body>
+
+    	<!-- mỗi element to e bọc 1 cái div cho nó rõ ràng -->
+
+    	<!-- header -->
+    	<div id="header">
+    		
+	        <div class="container">
+	            <div class="row main-header">
+	                <div class="col=sm-6 col-md-6">
+	                    <nav>
+	                        <a href="log-in.html" class="header" >Đăng nhập</a>
+	                        <a href="dang-ky.html" class="header">Đăng ký</a>
+	                        <a href="cart.html" class="header">Giỏ hàng</a>
+	                    </nav>
+	                </div>
+	                <div class="col-sm-6 col-md-6">
+	                    <form action="search form">
+	                        <input type="text" name="search" placeholder="Tìm kiếm" class="search">
+	                    </form>
+	                </div>
+	            </div>
+	        </div>
+    	</div>
+
+    	<!-- end header -->
+        
+        <hr>
+
+       	<!-- header-bottom -->
+
+       	<div id="header-bottom">
+			<div class="container">
+				<div class="row main-title">
+					<div class="col-sm-3 col-md-3">
+					    <a href="main.html"><img src="https://i.ibb.co/GdRZJD6/avar.jpg" alt="anh logo" class="img-logo">
+					    </a>
+					    <!-- phần đường dẫn này e tách riêng ra khỏi cái div này,  -->
+					  <!--  <a href="main.html">
+					    	<p>Trang chủ / Tất cả sản phẩm</p> 
+					   </a> -->
+					</div>
+					<div class="col-sm-7 col-md-7">
+					    <nav>
+					        <a href="main.html" class="title1">Trang chủ</a>
+					        <a href="san-pham.html" class="title1">Sản phẩm</a>
+					        <a href="gioi-thieu.html" class="title1">Giới thiệu</a>
+					        <a href="info.html" class="title1">Liên Hệ</a>
+					    </nav>
+					</div>
+					<div class="col-sm-2 col-md-2">
+						<!-- giỏ hàng cũng bọc thẻ a vào để còn chuyển link  -->
+				    	<img src="https://i.ibb.co/Y8DW6cm/gio-hang.png" alt="gio-hang" border="0" class="home">
+				  	</div>
+				 </div>
 			</div>
-		<hr>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-3 col-md-3">
-				<ul class="menu list-unstyled list-pro"><h5>Danh Mục Sản Phẩm</h5>
-					<li><a href=""  class="list-detail">túi xách Charles&Keith</a></li>
-					<li ><a href=""  class="list-detail">túi xách pedro</a></li>
-					<li><a href="" class="list-detail"> túi xách gucci</a></li>
-					<li ><a href=""  class="list-detail">túi xách chanel</a></li>
-					<li ><a href=""  class="list-detail">ví/bóp</a></li>
-				</ul>
-			</div>
-			<div class="col-sm-9 col-md-9 d-flex justify-content-center">
-				<div class="border-pro" >
-					<img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/100642682_125012692550529_4306335133834674176_n.png?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=n1K-E_7xdiEAX-Qwgik&_nc_ht=scontent.fhan5-6.fna&oh=b748afc73c43b45cbc335125a4c0703b&oe=5FFADD25" alt="" class="img-pro">
-					<h6 class="name">túi chunky vàng</h6>
-					<p class="price">380.000VND</p>
-					<button type="button" class="btn btn-primary button2">Mua hàng</button>
+       	</div>
+		<!-- end header-bottom -->
+
+
+	<!-- nội dung chính page -->
+
+	<div class="main-content">
+
+		<div class="container">
+			<div class="row">	
+
+				<!-- breadcrumb : https://getbootstrap.com/docs/4.0/components/breadcrumb/ -->
+				<div class="col-12">
+					<nav aria-label="breadcrumb">
+					  <ol class="breadcrumb">
+					    <li class="breadcrumb-item"><a href="#">Home</a></li>
+					    <li class="breadcrumb-item"><a href="#">Library</a></li>
+					    <li class="breadcrumb-item active" aria-current="page">Data</li>
+					  </ol>
+					</nav>
+				</div>		
+
+
+				<div class="col-sm-3 col-md-3">
+					<ul class="menu list-unstyled list-pro"><h5>Danh Mục Sản Phẩm</h5>
+						<li><a href=""  class="list-detail">túi xách Charles&Keith</a></li>
+						<li ><a href=""  class="list-detail">túi xách pedro</a></li>
+						<li><a href="" class="list-detail"> túi xách gucci</a></li>
+						<li ><a href=""  class="list-detail">túi xách chanel</a></li>
+						<li ><a href=""  class="list-detail">ví/bóp</a></li>
+					</ul>
 				</div>
-				<div class="border-pro">
-					<img src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/83980215_125014645883667_2402649858373582848_n.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=pvzCVsVFdUoAX9OocCY&_nc_ht=scontent.fhan5-3.fna&oh=d78f50d98f8ce2004cda5b1d6da38a1f&oe=5FFA834B" alt="" class="img-pro">
-					<h6 class="name">Túi cnk trám đen</h6>
-					<p class="price">280.000VND</p>
-					<button type="button" class="btn btn-primary button2">Mua hàng</button>
-				</div>
-				<div class="border-pro">
-					<img src="https://scontent.fhan5-2.fna.fbcdn.net/v/t1.0-9/101059463_125014692550329_3840995111148191744_n.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=1JGlFMNlkiIAX94bV55&_nc_ht=scontent.fhan5-2.fna&oh=1adf998bd14a395f51c973075fea89c0&oe=5FFADAF4" alt="" class="img-pro">
-					<h6 class="name">Túi cnk trám nude</h6>
-					<p class="price">280.000VND</p>
-					<button type="button" class="btn btn-primary button2">Mua hàng</button>
-				</div>
-				<div class="border-pro">
-					<img src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-9/101202452_125021982549600_5270176643174891520_n.png?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_ohc=ZKgzWwLrhW8AX9kMkmk&_nc_ht=scontent.fhan5-7.fna&oh=cf0b7e51768e7c9cbdb103d3b4440fba&oe=5FFDB8FD" alt="" class="img-pro">
-					<h6 class="name">túi cnk hộp</h6>
-					<p class="price">340.000VND</p>
-					<button type="button" class="btn btn-primary button2">Mua hàng</button>
+
+				<!-- đọc thêm cái này để dùng flex nhé , https://css-tricks.com/snippets/css/a-guide-to-flexbox/ --> 
+				<!-- còn ko đoạn này dùng float cho đơn giản trước  -->
+				<div class="col-sm-9 col-md-9 ">
+
+					<div class="row">
+						<div class="col-6 col-md-4">
+							<div class="border-pro" >
+								<!-- tên sản phẩm / ảnh sản phẩm nên để bọc thẻ a vào nhé , để còn đi link  -->
+
+								<img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/100642682_125012692550529_4306335133834674176_n.png?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=n1K-E_7xdiEAX-Qwgik&_nc_ht=scontent.fhan5-6.fna&oh=b748afc73c43b45cbc335125a4c0703b&oe=5FFADD25" alt="" class="img-pro">
+
+								<h6 class="name">túi chunky vàng</h6>
+								<p class="price">380.000VND</p>
+								<button type="button" class="btn btn-primary button2">Mua hàng</button>
+							</div>
+						</div>
+						<div class="col-6 col-md-4">
+							<div class="border-pro">
+								<img src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/83980215_125014645883667_2402649858373582848_n.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=pvzCVsVFdUoAX9OocCY&_nc_ht=scontent.fhan5-3.fna&oh=d78f50d98f8ce2004cda5b1d6da38a1f&oe=5FFA834B" alt="" class="img-pro">
+								<h6 class="name">Túi cnk trám đen</h6>
+								<p class="price">280.000VND</p>
+								<button type="button" class="btn btn-primary button2">Mua hàng</button>
+							</div>
+						</div>
+						<div class="col-6 col-md-4">
+							<div class="border-pro">
+								<img src="https://scontent.fhan5-2.fna.fbcdn.net/v/t1.0-9/101059463_125014692550329_3840995111148191744_n.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=1JGlFMNlkiIAX94bV55&_nc_ht=scontent.fhan5-2.fna&oh=1adf998bd14a395f51c973075fea89c0&oe=5FFADAF4" alt="" class="img-pro">
+								<h6 class="name">Túi cnk trám nude</h6>
+								<p class="price">280.000VND</p>
+								<button type="button" class="btn btn-primary button2">Mua hàng</button>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-4">
+							<div class="border-pro">
+								<img src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-9/101202452_125021982549600_5270176643174891520_n.png?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_ohc=ZKgzWwLrhW8AX9kMkmk&_nc_ht=scontent.fhan5-7.fna&oh=cf0b7e51768e7c9cbdb103d3b4440fba&oe=5FFDB8FD" alt="" class="img-pro">
+								<h6 class="name">túi cnk hộp</h6>
+								<p class="price">340.000VND</p>
+								<button type="button" class="btn btn-primary button2">Mua hàng</button>
+							</div>
+						</div>
+					</div>
+				
+
+					
+
+					
+				
+
+					
 				</div>
 			</div>
 		</div>
 	</div>
+
+
 	
-		<div class="d-flex justify-content-end img2">
+<!-- 		<div class="d-flex justify-content-end img2">
 			<div class="border-pro im3">
 				<img src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/18342344_1128290790616211_1043585512326988064_n.jpg?_nc_cat=106&ccb=2&_nc_sid=cdbe9c&_nc_ohc=bVyyWLYI3owAX9IUdDl&_nc_ht=scontent.fhan5-3.fna&oh=7da65bae2a27005fff4369d3f06b8b66&oe=5FFDC112" alt="" class="img-pro ">
 				<h6 class="name">Túi cnk khóa</h6>
@@ -113,7 +198,7 @@
 				<button type="button" class="btn btn-primary button2">Mua hàng</button>
 			</div>
 		</div>
-	</div>
+
 		<div class="d-flex justify-content-end img2">
 			<div  class="border-pro">
 				<img src="https://scontent.fhan5-2.fna.fbcdn.net/v/t1.0-9/18301281_1128290440616246_1031509611848872241_n.jpg?_nc_cat=102&ccb=2&_nc_sid=cdbe9c&_nc_ohc=dp4fSUzmGUsAX_pUvHu&_nc_ht=scontent.fhan5-2.fna&oh=e98d0407a950b25d6c62e4bcdd935e75&oe=5FFB81A6" alt="" class="img-pro">
@@ -140,7 +225,7 @@
 				<button type="button" class="btn btn-primary button2">Mua hàng</button>
 			</div>
 
-		</div>
+		</div> -->
 
 
 
