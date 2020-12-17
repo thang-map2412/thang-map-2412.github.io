@@ -1,0 +1,135 @@
+*{
+    margin: 0 auto ;
+    padding: 0 auto;
+    max-width: 960px;
+    
+}
+.header-top{
+    background-color: #b2b5d2;
+}
+.title{
+    margin: 5px;
+   color: white;
+   text-align: center;
+   font-size: 70%;
+   color: red;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-logo{
+    display: inline-block;
+    width: 250px;
+    height: auto;
+}
+.logo{
+    text-align: center;
+    width: 250px;
+}
+.nav-bar{
+  
+    text-align: center;
+}
+.menu-detail{
+    text-transform: uppercase;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(219, 23, 56);
+}
+.banner{
+    padding-top: 10px;
+}
+.content-top{
+    text-align: center;
+}
+.contents-title{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.img-contents{
+display: flex;
+justify-content: center;
+
+}
+
+.img-product{
+    width: 236px;
+    height: auto;
+    margin: 5px;
+
+}
+.about-product{
+   text-align: center;
+   text-transform: uppercase;
+    width: 200px;
+    color: red;
+}
+.border a{
+    text-decoration: none;
+}
+.button{
+    text-align: center;
+    margin: 20px 0px;
+}
+.button-more{
+    color: red;
+    padding: 8px;
+    background-color: pink;
+
+}
+.contents-bottom{
+    display: flex;
+    justify-content: end;
+}
+.img-feedback{
+    width: 250px;
+}
+.pag1{
+    font-style: italic;
+    font-size: 150%;
+    margin-left: 10px;
+}
+.pag2{
+    font-style: italic;
+    font-size: 200%;
+    margin-left: 15px;
+
+}
+.pag3{
+    font-style: italic;
+    font-size: 350%;
+    margin-left: 5px;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-about h4{
+    text-transform: uppercase;
+
+}
+.footer-about p{
+    font-size: 80%;
+    font-style: italic;
+    margin-top:10px;
+    width: 350px;
+    
+}
+.footer-policy h4{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.footer-policy a{
+    text-decoration: none;
+}
+.footer-policy li{
+    color: black;
+    list-style: none;
+}
+.footer-policy ul{
+    margin-top: 10px;
+} 
